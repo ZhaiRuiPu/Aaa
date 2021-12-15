@@ -7,6 +7,13 @@
     <groupId>top.diruipu</groupId>
     <artifactId>Aaa</artifactId>
     <version>0.0.1</version>
+    <modules>
+        <module>Aaa-common</module>
+        <module>Aaa-api</module>
+        <module>Aaa-auth</module>
+        <module>Aaa-gateway</module>
+        <module>Aaa-server</module>
+    </modules>
     <packaging>pom</packaging>
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
