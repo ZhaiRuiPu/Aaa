@@ -1,4 +1,4 @@
-package top.diruipu.common.util;
+package top.diruipu.common.core.util;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
