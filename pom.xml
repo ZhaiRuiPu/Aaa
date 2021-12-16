@@ -6,7 +6,7 @@
 
     <groupId>top.diruipu</groupId>
     <artifactId>Aaa</artifactId>
-    <version>${Aaa.version}</version>
+    <version>0.0.1</version>
     <modules>
         <module>Aaa-common</module>
         <module>Aaa-api</module>
@@ -19,11 +19,8 @@
         <Aaa.version>0.0.1</Aaa.version>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
-        <java.version>1.8</java.version>
-        <spring-cloud.version>Hoxton.SR9</spring-cloud.version>
-        <com.alibaba-cloud.version>2.2.5.RELEASE</com.alibaba-cloud.version>
         <spring-cloud.version>Hoxton.RELEASE</spring-cloud.version>
-        <com-alibaba-cloud.version>2.2.1.RELEASE</com-alibaba-cloud.version>
+        <com-alibaba-cloud.version>2.1.1.RELEASE</com-alibaba-cloud.version>
         <codingapi.txlcn.version>5.0.2.RELEASE</codingapi.txlcn.version>
         <fastjson.version>1.2.70</fastjson.version>
         <xml-api.version>1.4.01</xml-api.version>
@@ -46,10 +43,21 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.2.1.RELEASE</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <relativePath/>
     </parent>
-
-
+    <!-- lookup parent from repository -->
+    <repositories>
+        <repository>
+            <id>spring</id>
+            <url>https://maven.aliyun.com/repository/public</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
     <dependencyManagement>
         <dependencies>
             <dependency>
@@ -62,7 +70,7 @@
             <dependency>
                 <groupId>com.alibaba.cloud</groupId>
                 <artifactId>spring-cloud-alibaba-dependencies</artifactId>
-                <version>${com.alibaba-cloud.version}</version>
+                <version>${com-alibaba-cloud.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
