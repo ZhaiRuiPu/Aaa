@@ -18,7 +18,7 @@
     <dependencies>
         <dependency>
             <groupId>top.diruipu</groupId>
-            <artifactId>Aaa-common</artifactId>
+            <artifactId>Aaa-common-core</artifactId>
             <version>${Aaa.version}</version>
             <exclusions>
                 <exclusion>
