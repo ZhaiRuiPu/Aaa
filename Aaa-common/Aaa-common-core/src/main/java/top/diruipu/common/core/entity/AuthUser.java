@@ -18,6 +18,8 @@ import java.util.Date;
 @EqualsAndHashCode(callSuper = true)
 public class AuthUser extends User implements Serializable {
 
+        private static final long serialVersionUID = -980541688589604158L;
+
         private Long userId;
 
         private String avatar;

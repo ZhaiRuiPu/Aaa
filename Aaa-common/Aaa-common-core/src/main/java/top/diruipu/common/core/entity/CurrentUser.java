@@ -18,6 +18,9 @@ import java.util.Set;
 @AllArgsConstructor
 @NoArgsConstructor
 public class CurrentUser  implements Serializable {
+
+    private static final long serialVersionUID = -9077949698268851296L;
+
     @JsonIgnore
     private String password;
     private String username;
