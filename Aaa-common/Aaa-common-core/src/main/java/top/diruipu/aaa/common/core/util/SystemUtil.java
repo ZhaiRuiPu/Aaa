@@ -1,4 +1,4 @@
-package top.diruipu.common.core.util;
+package top.diruipu.aaa.common.core.util;
 
 import com.alibaba.fastjson.JSONObject;
 import com.baomidou.mybatisplus.core.metadata.IPage;
@@ -20,11 +20,11 @@ import org.springframework.security.oauth2.provider.authentication.OAuth2Authent
 import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;
 import reactor.core.publisher.Mono;
-import top.diruipu.common.core.constant.PageConstant;
-import top.diruipu.common.core.constant.RegexpConstant;
-import top.diruipu.common.core.constant.StringConstant;
-import top.diruipu.common.core.entity.AuthUser;
-import top.diruipu.common.core.entity.CurrentUser;
+import top.diruipu.aaa.common.core.constant.PageConstant;
+import top.diruipu.aaa.common.core.constant.RegexpConstant;
+import top.diruipu.aaa.common.core.constant.StringConstant;
+import top.diruipu.aaa.common.core.entity.AuthUser;
+import top.diruipu.aaa.common.core.entity.CurrentUser;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

@@ -1,4 +1,4 @@
-package top.diruipu.common.core.util;
+package top.diruipu.aaa.common.core.util;
 
 import com.baomidou.mybatisplus.core.toolkit.IdWorker;
 

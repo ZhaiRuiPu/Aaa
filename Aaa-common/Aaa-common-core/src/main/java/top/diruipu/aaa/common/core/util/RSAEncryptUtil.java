@@ -1,4 +1,4 @@
-package top.diruipu.common.core.util;
+package top.diruipu.aaa.common.core.util;
 
 import lombok.SneakyThrows;
 import org.apache.commons.codec.binary.Base64;

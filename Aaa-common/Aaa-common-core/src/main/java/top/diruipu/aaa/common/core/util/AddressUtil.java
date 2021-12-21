@@ -1,4 +1,4 @@
-package top.diruipu.common.core.util;
+package top.diruipu.aaa.common.core.util;
 
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.io.FileUtils;
@@ -6,7 +6,7 @@ import org.apache.commons.lang3.StringUtils;
 import org.lionsoul.ip2region.DataBlock;
 import org.lionsoul.ip2region.DbConfig;
 import org.lionsoul.ip2region.DbSearcher;
-import top.diruipu.common.core.constant.SystemConstant;
+import top.diruipu.aaa.common.core.constant.SystemConstant;
 
 import java.io.File;
 import java.io.IOException;

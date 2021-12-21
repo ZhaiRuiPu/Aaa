@@ -1,4 +1,4 @@
-package top.diruipu.common.core.entity;
+package top.diruipu.aaa.common.core.entity;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;

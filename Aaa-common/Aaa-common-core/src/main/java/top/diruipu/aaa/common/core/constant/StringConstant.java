@@ -1,4 +1,4 @@
-package top.diruipu.common.core.constant;
+package top.diruipu.aaa.common.core.constant;
 
 /**
  * @author diruipu

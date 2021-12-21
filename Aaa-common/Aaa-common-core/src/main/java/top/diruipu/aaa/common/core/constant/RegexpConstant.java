@@ -1,4 +1,4 @@
-package top.diruipu.common.core.constant;
+package top.diruipu.aaa.common.core.constant;
 
 import java.util.regex.Pattern;
 

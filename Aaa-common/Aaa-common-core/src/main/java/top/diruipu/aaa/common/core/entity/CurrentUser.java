@@ -1,4 +1,4 @@
-package top.diruipu.common.core.entity;
+package top.diruipu.aaa.common.core.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.AllArgsConstructor;
