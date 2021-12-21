@@ -9,7 +9,7 @@ import top.diruipu.aaa.gateway.enhance.entity.RateLimitRule;
 import java.util.Collection;
 
 /**
- * @author MrBird
+ * @author zrp
  */
 @Repository
 public interface RateLimitRuleMapper extends ReactiveMongoRepository<RateLimitRule, String> {

@@ -9,7 +9,7 @@ import top.diruipu.aaa.gateway.enhance.service.RateLimitRuleService;
 import top.diruipu.aaa.gateway.enhance.service.RouteEnhanceCacheService;
 
 /**
- * @author MrBird
+ * @author zrp
  */
 @RequiredArgsConstructor
 public class RouteEnhanceRunner implements ApplicationRunner {

@@ -17,12 +17,12 @@ import top.diruipu.aaa.gateway.enhance.service.RouteEnhanceCacheService;
 import java.util.concurrent.ThreadPoolExecutor;
 
 /**
- * @author MrBird
+ * @author zrp
  */
 @EnableAsync
 @Configuration
 @EnableReactiveMongoRepositories(basePackages = "top.diruipu.aaa.gateway.enhance.mapper")
-@ConditionalOnProperty(name = "febs.gateway.enhance", havingValue = "true")
+@ConditionalOnProperty(name = "aaa.gateway.enhance", havingValue = "true")
 public class RouteEnhanceConfigure {
 
     @Bean(SystemConstant.ASYNC_POOL)
@@ -32,7 +32,7 @@ public class RouteEnhanceConfigure {
         executor.setMaxPoolSize(20);
         executor.setQueueCapacity(100);
         executor.setKeepAliveSeconds(30);
-        executor.setThreadNamePrefix("Febs-Gateway-Async-Thread");
+        executor.setThreadNamePrefix("Gateway-Async-Thread");
         executor.setWaitForTasksToCompleteOnShutdown(true);
         executor.setAwaitTerminationSeconds(60);
         executor.setRejectedExecutionHandler(new ThreadPoolExecutor.CallerRunsPolicy());

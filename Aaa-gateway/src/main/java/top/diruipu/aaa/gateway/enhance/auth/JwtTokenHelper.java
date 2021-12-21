@@ -15,17 +15,17 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author MrBird
+ * @author zrp
  */
 @Component
 public class JwtTokenHelper implements Serializable {
 
     private static final long serialVersionUID = 1579222883969867182L;
 
-    @Value("${febs.gateway.jwt.secret}")
+    @Value("${aaa.gateway.jwt.secret}")
     private String secret;
 
-    @Value("${febs.gateway.jwt.expiration}")
+    @Value("${aaa.gateway.jwt.expiration}")
     private String expirationTime;
 
     public Claims getAllClaimsFromToken(String token) {

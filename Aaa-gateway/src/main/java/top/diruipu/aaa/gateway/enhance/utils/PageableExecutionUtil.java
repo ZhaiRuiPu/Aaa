@@ -11,11 +11,11 @@ import top.diruipu.aaa.common.core.constant.SystemConstant;
 import top.diruipu.aaa.common.core.entity.QueryRequest;
 
 /**
- * @author MrBird
+ * @author zrp
  */
 public abstract class PageableExecutionUtil {
 
-    public static <FEBS> Flux<FEBS> getPages(Query query, QueryRequest request, Class<FEBS> clazz,
+    public static <Aaa> Flux<Aaa> getPages(Query query, QueryRequest request, Class<Aaa> clazz,
                                              ReactiveMongoTemplate template) {
         Sort sort = Sort.by("id").descending();
         if (StringUtils.isNotBlank(request.getField()) && StringUtils.isNotBlank(request.getOrder())) {

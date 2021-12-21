@@ -14,7 +14,7 @@ import top.diruipu.aaa.gateway.enhance.entity.RateLimitLog;
 import top.diruipu.aaa.gateway.enhance.service.RateLimitLogService;
 
 /**
- * @author MrBird
+ * @author zrp
  */
 @RestController
 @RequiredArgsConstructor

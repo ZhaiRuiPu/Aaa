@@ -10,7 +10,7 @@ import top.diruipu.aaa.gateway.enhance.entity.RouteUser;
 import java.util.Collection;
 
 /**
- * @author MrBird
+ * @author zrp
  */
 @Repository
 public interface RouteUserMapper extends ReactiveMongoRepository<RouteUser, String> {

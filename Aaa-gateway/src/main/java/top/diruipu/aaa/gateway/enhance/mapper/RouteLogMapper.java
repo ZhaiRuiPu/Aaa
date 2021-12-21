@@ -9,7 +9,7 @@ import top.diruipu.aaa.gateway.enhance.entity.RouteLog;
 import java.util.Collection;
 
 /**
- * @author MrBird
+ * @author zrp
  */
 @Repository
 public interface RouteLogMapper extends ReactiveMongoRepository<RouteLog, String> {

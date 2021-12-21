@@ -7,7 +7,7 @@ import top.diruipu.aaa.common.core.entity.QueryRequest;
 import top.diruipu.aaa.gateway.enhance.entity.BlackList;
 
 /**
- * @author MrBird
+ * @author zrp
  */
 public interface BlackListService {
 

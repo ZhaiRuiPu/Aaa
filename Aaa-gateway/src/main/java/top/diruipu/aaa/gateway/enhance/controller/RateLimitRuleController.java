@@ -11,7 +11,7 @@ import top.diruipu.aaa.gateway.enhance.entity.RateLimitRule;
 import top.diruipu.aaa.gateway.enhance.service.RateLimitRuleService;
 
 /**
- * @author MrBird
+ * @author zrp
  */
 @RestController
 @RequiredArgsConstructor

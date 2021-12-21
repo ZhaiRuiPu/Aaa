@@ -4,13 +4,13 @@ package top.diruipu.aaa.gateway.enhance.utils;
 import top.diruipu.aaa.common.core.constant.SystemConstant;
 
 /**
- * @author MrBird
+ * @author zrp
  */
 public abstract class RouteEnhanceCacheUtil {
 
-    private static final String BLACKLIST_CHACHE_KEY_PREFIX = "febs:route:blacklist:";
-    private static final String RATELIMIT_CACHE_KEY_PREFIX = "febs:route:ratelimit:";
-    private static final String RATELIMIT_COUNT_KEY_PREFIX = "febs:route:ratelimit:cout:";
+    private static final String BLACKLIST_CHACHE_KEY_PREFIX = "aaa:route:blacklist:";
+    private static final String RATELIMIT_CACHE_KEY_PREFIX = "aaa:route:ratelimit:";
+    private static final String RATELIMIT_COUNT_KEY_PREFIX = "aaa:route:ratelimit:cout:";
 
     public static String getBlackListCacheKey(String ip) {
         if (SystemConstant.LOCALHOST.equalsIgnoreCase(ip)) {

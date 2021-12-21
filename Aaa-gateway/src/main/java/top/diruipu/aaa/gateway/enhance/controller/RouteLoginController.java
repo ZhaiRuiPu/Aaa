@@ -14,7 +14,7 @@ import top.diruipu.aaa.gateway.enhance.auth.JwtTokenHelper;
 import top.diruipu.aaa.gateway.enhance.service.RouteUserService;
 
 /**
- * @author MrBird
+ * @author zrp
  */
 @RestController
 @RequiredArgsConstructor

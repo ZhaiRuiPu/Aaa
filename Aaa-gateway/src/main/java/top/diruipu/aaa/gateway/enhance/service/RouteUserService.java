@@ -7,7 +7,7 @@ import top.diruipu.aaa.common.core.entity.QueryRequest;
 import top.diruipu.aaa.gateway.enhance.entity.RouteUser;
 
 /**
- * @author MrBird
+ * @author zrp
  */
 public interface RouteUserService {
 

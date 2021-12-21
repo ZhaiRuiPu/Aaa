@@ -9,7 +9,7 @@ import top.diruipu.aaa.gateway.enhance.entity.BlackList;
 import java.util.Collection;
 
 /**
- * @author MrBird
+ * @author zrp
  */
 @Repository
 public interface BlackListMapper extends ReactiveMongoRepository<BlackList, String> {

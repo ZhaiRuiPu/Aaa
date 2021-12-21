@@ -8,7 +8,7 @@ import top.diruipu.aaa.gateway.enhance.entity.BlockLog;
 import java.util.Collection;
 
 /**
- * @author MrBird
+ * @author zrp
  */
 public interface BlockLogMapper extends ReactiveMongoRepository<BlockLog, String> {
 
