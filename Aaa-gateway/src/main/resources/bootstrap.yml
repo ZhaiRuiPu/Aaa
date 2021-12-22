@@ -1,0 +1,42 @@
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  application:
+    name: Gateway
+  cloud:
+    nacos:
+      config:
+        server-addr: diruipu.top:8860
+        namespace: b9b276e0-38a5-4835-950e-389849acf18a
+        prefix: gateway
+        file-extension: yaml
+        username: nacos
+        password: nacos
+      discovery:
+        server-addr: diruipu.top:8860
+        namespace: b9b276e0-38a5-4835-950e-389849acf18a
+        username: nacos
+        password: nacos
+  boot:
+    admin:
+      client:
+        instance:
+          prefer-ip: true
+
+logging:
+  level:
+    org:
+      springframework:
+        boot:
+          actuate:
+            endpoint:
+              EndpointId: error
+        data:
+          convert:
+            CustomConversions: error
+    com:
+      alibaba:
+        cloud:
+          nacos:
+            client:
+              NacosPropertySourceBuilder: error
